@@ -1,0 +1,47 @@
+ATELIERUL DE CREAȚIE · PANCARTE MANIFEST
+Curs HTML · SCORM 2004 (3rd Edition) · v1.1 · 17.11.2026
+E-learning realizat de LEETUCATION SRL · Finanțat de Municipiul Timișoara prin Centrul de Proiecte
+
+Atelier de creație: de la memorie la mesaj, pancarte mari și manifeste-colaj pentru spațiul public.
+12 ecrane, cu voce în română (3.7 minute), subtitrare și elemente care apar pe măsură ce vorbește vocea.
+Exerciții: pancarta ta: mesaj, pânză, litere decupate, descărcare PNG (1.8); pancarta apare pe 1.11. Ultimul ecran (1.12): rezultatele atelierului, cu manifestele-colaj și pancartele elevilor, mărite la clic.
+
+CUM ÎL DESCHIZI
+  - Pe calculator, fără internet: dezarhivezi și deschizi index.html (dublu clic).
+  - Online: încarci tot conținutul arhivei pe GitHub Pages sau pe orice găzduire web (index.html în rădăcină).
+  - Într-un LMS (Moodle, Oracle Learning, SCORM Cloud): încarci arhiva Atelier_PancarteManifest_RO_v1.1_SCORM2004.zip ca SCORM 2004 3rd Edition.
+    Cursul raportează progresul, datele de reluare și finalizarea la „Încheie”, pe ultimul ecran.
+  - Pe telefon: se deschide pe o singură coloană; prima atingere trece cursul pe tot ecranul (Android).
+    Pe iPhone: Partajează > Adaugă pe ecranul principal.
+  Fără LMS, răspunsurile rămân doar în browserul de pe dispozitivul elevului.
+
+CE E ÎN PACHET
+  index.html ............ cursul
+  imsmanifest.xml ....... descrierea SCORM 2004 3rd Edition (+ fișierele .xsd și .dtd cerute de standard)
+  js/config.js .......... setările: titlul, versiunea, capitolele, întrebările, creditele
+  js/slides.js .......... ecranele (textul, imaginile, momentele în care apar elementele)
+  js/extras.js .......... exercițiile
+  js/player.js .......... player-ul: navigare, voce, subtitrare, Cuprins, salvare
+  js/scorm_api.js ....... legătura cu LMS-ul
+  audio/ ................ vocea (un MP3 pe ecran) și audio/vo.js (frazele și subtitrarea)
+  media/img/ ............ ilustrațiile, generate cu IA în Magnific
+  media/cadre/ .......... fotografiile din decembrie 1989 (martor anonim), neschimbate
+  media/brand/ .......... animația Centrului de Proiecte, logourile, iconița cursului
+  css/, fonts/ .......... aspectul; fonturile IBM Plex și Doto (licență SIL Open Font License)
+
+INTELIGENȚA ARTIFICIALĂ
+  Ilustrațiile sunt generate cu IA în Magnific (modelul Nano Banana 2.1), în stilul afișelor de grafică
+  modernă; nu sunt fotografii ale unor oameni reali. Vocea e generată cu IA în Magnific (ElevenLabs v4,
+  vocea „Alexandra Stoica”). Elevii văd aceste informații pe ultimul ecran și în Cuprins.
+
+DREPTURI
+  Fotografiile din decembrie 1989 aparțin unui martor anonim și vin din materialele atelierului; se folosesc
+  doar în acest curs, neretușate. Textele: materialele atelierului (Imagine Sunet ’89 · Manifest), scurtate.
+REZULTATELE ATELIERULUI (1.12)
+  Ultimul ecran arată manifestele-colaj și pancartele elevilor (media/rezultate/). Manifestele au fost fotografiate
+  pe un carton verde; fundalul verde a fost scos (lucrările sunt neschimbate). Fotografiile nu au metadate.
+  Fotografiile cu pancartele arată fețele elevilor: pe un site public, publică-le doar cu acordul lor (și al
+  părinților, pentru minori). Ca să le ascunzi: în js/config.js, la „rezultate”, pune "fotografiiGrup": false;
+  ecranul păstrează lucrările și textele pancartelor. Pe un site public șterge atunci și fișierele
+  media/rezultate/08-*, 09-*, 10-*, altfel rămân accesibile la adresa lor.
+
